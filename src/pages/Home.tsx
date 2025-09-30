@@ -1,13 +1,22 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import Tecnologia from "@/assets/tecnologia.jpeg";
+
+import PieChartIcon from "@/assets/icons/pie-chart.png";
+import EditIcon from "@/assets/icons/edit.png";
+import ComboChartIcon from "@/assets/icons/combo-chart--v1.png";
 
 export default function Home() {
   const [open, setOpen] = useState(false);
 
+  useEffect(() => {
+    console.log("Página Home carregada!");
+    window.scrollTo(0, 0); 
+  }, []);
+
   return (
     <main className="min-h-screen bg-gradient-to-b from-gray-50 to-gray-100">
       <section className="max-w-7xl mx-auto px-6 py-20">
-        {/* HERO */}
+        {}
         <div className="text-center">
           <h2 className="text-5xl font-extrabold text-brand-blue drop-shadow-sm">
             Bem-vindo à Invox!
@@ -50,12 +59,12 @@ export default function Home() {
           )}
         </div>
 
-        {/* BENEFÍCIOS */}
+        {}
         <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-12 mt-20">
           <div className="bg-white rounded-2xl shadow-lg p-10 text-center hover:shadow-2xl transition transform hover:-translate-y-2">
             <div className="bg-brand-blue/10 w-16 h-16 flex items-center justify-center rounded-full mx-auto mb-6">
               <img
-                src="https://img.icons8.com/ios-filled/50/000000/pie-chart.png"
+                src={PieChartIcon}
                 alt="Ícone suporte"
                 className="h-10 w-10"
               />
@@ -72,7 +81,7 @@ export default function Home() {
           <div className="bg-white rounded-2xl shadow-lg p-10 text-center hover:shadow-2xl transition transform hover:-translate-y-2">
             <div className="bg-brand-blue/10 w-16 h-16 flex items-center justify-center rounded-full mx-auto mb-6">
               <img
-                src="https://img.icons8.com/ios-filled/50/000000/edit.png"
+                src={EditIcon}
                 alt="Ícone engenharia"
                 className="h-10 w-10"
               />
@@ -86,7 +95,7 @@ export default function Home() {
           <div className="bg-white rounded-2xl shadow-lg p-10 text-center hover:shadow-2xl transition transform hover:-translate-y-2">
             <div className="bg-brand-blue/10 w-16 h-16 flex items-center justify-center rounded-full mx-auto mb-6">
               <img
-                src="https://img.icons8.com/ios-filled/50/000000/combo-chart--v1.png"
+                src={ComboChartIcon}
                 alt="Ícone custo"
                 className="h-10 w-10"
               />
@@ -101,7 +110,7 @@ export default function Home() {
           </div>
         </div>
 
-        {/* EXTRA - IMAGEM TECNOLOGIA */}
+        {}
         <div className="mt-24">
           <div className="bg-white rounded-3xl shadow-xl overflow-hidden">
             <img
