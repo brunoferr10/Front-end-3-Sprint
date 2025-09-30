@@ -8,11 +8,11 @@ O objetivo é **reduzir o absenteísmo em consultas online** no Hospital das Cl�
 ---
 
 ##  Tecnologias Utilizadas
-- [React](https://react.dev/)
-- [Vite](https://vitejs.dev/)
-- [TypeScript](https://www.typescriptlang.org/)
-- [TailwindCSS](https://tailwindcss.com/)
-- [React Router DOM](https://reactrouter.com/)
+
+- **React + Vite + TypeScript**
+- **TailwindCSS** (estilização e responsividade)
+- **React Router DOM** (navegação SPA)
+- **Git / GitHub / GitFlow** (versionamento)
 
 ---
 
@@ -36,19 +36,20 @@ O objetivo é **reduzir o absenteísmo em consultas online** no Hospital das Cl�
 
 ##  Estrutura de Pastas
 
-invox-sprint3
-│── public/
-│── src/
-│ ├── assets/ # imagens e ícones
-│ ├── components/ # componentes reutilizáveis
-│ ├── pages/ # páginas principais (Home, Projeto, FAQ, Integrantes, Contato)
-│ ├── App.tsx # componente principal
-│ ├── main.tsx # ponto de entrada
-│── package.json
-│── tailwind.config.js
-│── tsconfig.json
-│── vite.config.ts
-│── README.md
+invox-react-sprint3/
+│── public/ # Arquivos públicos
+│── src/ # Código-fonte principal
+│ ├── assets/ # Imagens e ícones
+│ ├── components/ # Componentes reutilizáveis (ex: IntegranteCard)
+│ ├── pages/ # Páginas principais (Home, FAQ, Projeto, Contato, Integrantes)
+│ ├── App.tsx # Estrutura base da aplicação
+│ ├── main.tsx # Renderização principal
+│── .gitignore # Ignora node_modules e arquivos desnecessários
+│── package.json # Dependências do projeto
+│── tailwind.config.js # Configuração do Tailwind
+│── tsconfig.json # Configuração do TypeScript
+│── vite.config.ts # Configuração do Vite
+│── README.md # Este arquivo
 
 ---
 
