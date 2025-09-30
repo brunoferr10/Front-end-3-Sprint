@@ -1,30 +1,62 @@
+#  Invox - Teleconsulta Segura e Acessível
 
-# Invox - Sprint 3 (React + Vite + TypeScript + Tailwind + React Router)
+##  Sobre o Projeto
+Este projeto foi desenvolvido na **Sprint 03 - Front-End Design Engineering**, com foco em transformar as páginas da Sprint 02 em uma aplicação **React + Vite + TypeScript** no formato **SPA (Single Page Application)**.
 
-Projeto reestruturado a partir da Sprint 2 em SPA com componentização, rotas estáticas e dinâmicas e uso de hooks.
+O objetivo é **reduzir o absenteísmo em consultas online** no Hospital das Clínicas, garantindo **acessibilidade** para pessoas idosas e/ou com dificuldades com tecnologia.
 
-## Tecnologias
-- React 18 + TypeScript (Vite)
-- React Router v6 (rotas estáticas/dinâmicas, `useNavigate`, `useParams`)
-- TailwindCSS (estilização e responsividade)
-- Hooks: `useState`, `useEffect`
+---
 
-## Rodando localmente
-```bash
-npm i
-npm run dev
-```
-Abra o link exibido no terminal.
+##  Tecnologias Utilizadas
+- [React](https://react.dev/)
+- [Vite](https://vitejs.dev/)
+- [TypeScript](https://www.typescriptlang.org/)
+- [TailwindCSS](https://tailwindcss.com/)
+- [React Router DOM](https://reactrouter.com/)
 
-## Estrutura de rotas
-- `/` Home
-- `/integrantes` Lista de integrantes
-- `/integrantes/:id` Detalhe do integrante (rota dinâmica)
-- `/faq` FAQ
-- `/projeto` Projeto
-- `/contato` Contato
-```
+---
 
-## Observações
-- Imagens dos integrantes usam placeholders (Unsplash). Você pode substituir por arquivos locais em `public/` e atualizar as URLs.
-- Paleta de cores mantém o azul `#0066cc` como cor principal (`brand.blue` no Tailwind).
+##  Integrantes
+- **Bruno Ferreira** - RM 563489 - Turma 1TDSR  
+- **Gabriel Robertoni Padilha** - RM 566293 - Turma 1TDSR  
+- **Leonardo Aragaki** - RM 562944 - Turma 1TDSR  
+
+---
+
+##  Imagens e Ícones
+### Página Inicial
+![Home](./src/assets/tecnologia.jpeg)
+
+### Página Integrantes
+<img src="./src/assets/Bruno.jpeg" alt="Bruno" width="200"/>
+<img src="./src/assets/Gabriel.jpeg" alt="Gabriel" width="200"/>
+<img src="./src/assets/leo.jpeg" alt="Leonardo" width="200"/>
+
+---
+
+##  Estrutura de Pastas
+
+invox-sprint3
+│── public/
+│── src/
+│ ├── assets/ # imagens e ícones
+│ ├── components/ # componentes reutilizáveis
+│ ├── pages/ # páginas principais (Home, Projeto, FAQ, Integrantes, Contato)
+│ ├── App.tsx # componente principal
+│ ├── main.tsx # ponto de entrada
+│── package.json
+│── tailwind.config.js
+│── tsconfig.json
+│── vite.config.ts
+│── README.md
+
+---
+
+##  Link do Repositório
+ [GitHub - Invox Sprint 3](https://github.com/brunoferr10/Front-end-3-Sprint)
+
+---
+
+##  Link do Vídeo de Apresentação
+ 
+
