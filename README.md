@@ -54,10 +54,12 @@ invox-react-sprint3/
 ---
 
 ##  Link do Repositório
- [GitHub - Invox Sprint 3](https://github.com/brunoferr10/Front-end-3-Sprint)
+
+(https://github.com/brunoferr10/Front-end-3-Sprint)
 
 ---
 
 ##  Link do Vídeo de Apresentação
  
+ https://www.youtube.com/watch?v=aXN9WaglK0U
 
