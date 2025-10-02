@@ -14,7 +14,7 @@ export default function Contato() {
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
-    // Aqui você integraria com API/Email
+  
     setEnviado(true);
   };
 

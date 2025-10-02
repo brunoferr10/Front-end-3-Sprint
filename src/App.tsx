@@ -14,7 +14,7 @@ export default function App() {
   const location = useLocation();
   const navigate = useNavigate();
 
-  // useEffect example: update document title based on route
+
   useEffect(() => {
     const map: Record<string, string> = {
       "/": "Home - Invox",
@@ -26,7 +26,7 @@ export default function App() {
     document.title = map[location.pathname] ?? "Invox";
   }, [location.pathname]);
 
-  // Example useNavigate: logo click sends to home
+ 
   const handleLogoClick = () => navigate("/");
 
   return (

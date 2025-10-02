@@ -6,7 +6,7 @@ export default function IntegranteDetalhe() {
   const { id } = useParams<{ id: string }>();
   const [integrante, setIntegrante] = useState<Integrante | null>(null);
 
-  // Simulação de banco de dados / lista
+
   const integrantes: Integrante[] = [
     { id: "1", nome: "Gabriel", rm: "12345", turma: "1TDSR", img: "/src/assets/Gabriel.jpeg", linkedin: "https://linkedin.com" },
     { id: "2", nome: "Bruno", rm: "67890", turma: "1TDSR", img: "/src/assets/Bruno.jpeg", linkedin: "https://linkedin.com" },
